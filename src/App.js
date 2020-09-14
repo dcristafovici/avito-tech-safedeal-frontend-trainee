@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import AppItems from './AppItems';
+import Popup from './Popup'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends React.Component {
+
+  render(){
+    
+    return (
+      <main className="app-main">
+        <section className="app">
+          <div className="content">
+            <div className="title">
+             <h1>Все фотографии</h1>
+            </div>
+            <AppItems />
+          </div>
+        </section>
+        <Popup />
+      </main>
+    );
+
+  }
+
 }
 
 export default App;

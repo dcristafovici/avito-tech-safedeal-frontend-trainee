@@ -147,13 +147,13 @@ select {
   text-indent: 1px;
   text-overflow: '';
 }
-/* @font-face {
+@font-face {
   font-family: 'RobotoCondensed-Regular';
   src: url("../fonts/RobotoCondensed-Regular/RobotoCondensed-Regular.eot");
   src: url("../fonts/RobotoCondensed-Regular/RobotoCondensed-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/RobotoCondensed-Regular/RobotoCondensed-Regular.woff") format('woff'), url("../fonts/RobotoCondensed-Regular/RobotoCondensed-Regular.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
-} */
+}
 body {
   min-width: 320px;
   overflow-x: hidden;
@@ -300,10 +300,6 @@ button {
 .popup-comment span:first-child {
   color: #999;
   margin-bottom: 5px;
-}
-
-.app-item img{
-  max-width: 100%;
 }
 @media screen and (max-width: 768px) {
   .app-main {
